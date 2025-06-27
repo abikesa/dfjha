@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ukubona Spiral Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>🌊 Ukubona Signal Dashboard</h1>
+  <div class="container">
+    {% for person in people %}
+      <div class="card" style="border-color: {{ person.color }}">
+        <h2>{{ person.name }}</h2>
+        <p>Mood: {{ person.mood }}</p>
+        <p>Cortisol: {{ person.cortisol }}</p>
+        <p>Symbolic State: {{ person.symbol }}</p>
+        <button onclick="alert('Recentered {{ person.name }}')">🔁 Recenter</button>
+      </div>
+    {% endfor %}
+  </div>
+</body>
+</html>

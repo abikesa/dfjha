@@ -1,0 +1,27 @@
+body {
+  font-family: system-ui;
+  background: #111;
+  color: #fff;
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card {
+  border: 3px solid #ccc;
+  padding: 1rem;
+  background: #222;
+  border-radius: 0.5rem;
+  width: 200px;
+}
+button {
+  margin-top: 0.5rem;
+  background: #444;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
