@@ -1,11 +1,11 @@
 
 # Abstract
 
-> 🌊 Intrauterine
-> ❤️ Cut
-> 🔱 Relate
-> 🐬 Kind
-> 🔁 Flourish
+> 🌊 Intrauterine        
+> ❤️ Cut      
+> 🔱 Relate     
+> 🐬 Kind      
+> 🔁 Flourish     
 
 ## A
 | Emoji | Physiological   | Mythic   | Affective  | Computational                 | Ontological Phase         | Commentary                                                                              |
